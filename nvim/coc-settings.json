@@ -1,8 +1,10 @@
 {
   "prettier.tslintIntegration": true,
   "prettier.eslintIntegration": true,
+  "diagnostic.virtualText": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "typescript",
+    "typescript.tsx",
     "javascript",
     "java",
     "json",
