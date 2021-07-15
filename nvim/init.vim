@@ -1,5 +1,4 @@
 call plug#begin('~/.vim/plugged')
-Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
 Plug 'luochen1990/rainbow'
 Plug 'francoiscabrol/ranger.vim'
@@ -11,7 +10,6 @@ Plug 'fatih/vim-go'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-syntastic/syntastic'
 Plug 'preservim/nerdtree'
-Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'justinmk/vim-sneak'
@@ -19,6 +17,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'stephpy/vim-yaml'
 Plug 'yggdroot/indentline'
+Plug 'rust-lang/rust.vim'
 call plug#end()
 source $HOME/.config/nvim/plug-config/sneak.vim
 source $HOME/.config/nvim/general/settings.vim
